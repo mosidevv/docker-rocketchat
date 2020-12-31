@@ -1,4 +1,4 @@
-- name: CapRover App Deploy
+name: CapRover App Deploy
   # You may pin to the exact commit or the version.
   # uses: floms/action-caprover@205a0ab0bd4edbc5c1472365dcc127344162d15f
   uses: floms/action-caprover@v1
