@@ -1,0 +1,15 @@
+- name: CapRover App Deploy
+  # You may pin to the exact commit or the version.
+  # uses: floms/action-caprover@205a0ab0bd4edbc5c1472365dcc127344162d15f
+  uses: floms/action-caprover@v1
+  with:
+    # CapRover machine url i.e., https://captain.your-domain.com
+    host: https://captain.oursquad.rocks
+    # CapRover admin password. Use secret for more security
+    password: ${{ secrets.AD_PASS }}
+    # App name on CapRover server
+    app: rocketchat
+    # Branch to be deployed
+    branch: # optional
+    # Docker image to be deployed
+    image: # optional
